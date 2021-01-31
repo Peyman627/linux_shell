@@ -1,0 +1,16 @@
+#!/bin/bash
+
+NUMBER=5
+
+# NUMBER + 5
+let RESULT1=NUMBER+5
+RESULT2=$(( NUMBER + 5 ))
+RESULT3=$[ NUMBER + 5 ]
+RESULT4=`expr $NUMBER + 5`
+RESULT5=$(expr $NUMBER + 5)
+
+echo $RESULT1, $RESULT2, $RESULT3, $RESULT4, $RESULT5
+
+RESULT6=`echo "$NUMBER + 5" | bc`
+RESULT7=$(echo "$NUMBER + 5" | bc)
+echo $RESULT6, $RESULT7

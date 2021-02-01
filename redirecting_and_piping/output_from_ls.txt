@@ -1,0 +1,6 @@
+all_output_from_cat.txt
+basics.sh
+errors.txt
+file.txt
+output_from_cat.txt
+output_from_ls.txt
